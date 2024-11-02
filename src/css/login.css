@@ -1,0 +1,105 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 1) 0%, rgba(252, 176, 69, 1) 100%);
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .login-box{
+    width: 100%;
+    max-width: 400px; /* Center box for better user focus */
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align all content */
+  }
+  .form-row {
+    display: flex; /* Display the input fields in a row */
+    flex-direction: column; /* Arrange vertically */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Adjust maximum width */
+  }
+  
+  .input-group {
+    margin-bottom: 1rem; /* Space below each input group */
+  }
+  
+  .input-group label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem; /* Space below label */
+  }
+  
+  /* Input styling */
+  .input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    color: #333;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.5);
+  }
+  
+  /* Error message styling */
+  .input-error {
+    border-color: #e74c3c; /* Red for errors */
+  }
+  
+  .error-message {
+    color: #e74c3c; /* Error message color */
+    font-size: 0.875rem;
+    margin-top: 0.25rem; /* Space above error message */
+  }
+  
+  /* Button styling */
+  .login-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff; /* Button text color */
+    background: linear-gradient(45deg, #6366f1, #4f46e5);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(45deg, #4f46e5, #3730a3);
+    transform: translateY(-2px);
+  }
+  
+  .login-button:active {
+    transform: translateY(0);
+  }
+  
+  /* Link styling */
+  .register-link {
+    color: #555; /* Subtle link color */
+    margin-top: 1rem;
+  }
+  
+  .register-link a {
+    color: #6366f1; /* Indigo link color */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .register-link a:hover {
+    color: #4f46e5; /* Darker color on hover */
+  }
